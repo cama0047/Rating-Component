@@ -1,20 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: hsl(216, 12%, 8%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +14,47 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.icon{
+margin-left: 10px;
+}
+
+.card{
+  background-color: hsl(213, 19%, 18%) !important;
+  padding: 20px !important;
+  margin: 10% !important;
+  border-radius: 15px !important;
+  font-family: 'Overpass', sans-serif;
+}
+
+.cardcontent > h2{
+color: white !important;
+text-align: left !important;
+
+
+}
+.cardcontent > p {
+color: rgba(255, 255, 255, 0.559) !important;
+size: 15px;
+}
+
+
+.submitbtn{
+  font-size: 25px;
+  width: 40%;
+  border-radius: 20px;
+  height: 40px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  margin-left: 30%;
+}
+
+button:hover{
+  
+  background-color: white;
+  color: hsl(25, 97%, 53%);
 }
 
 .App-link {
