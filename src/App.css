@@ -61,6 +61,17 @@ button:hover{
   color: #61dafb;
 }
 
+input[type="radio"]{
+  display:none;
+}
+
+.start{
+cursor: pointer;
+transition: color 200ms;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
