@@ -1,11 +1,12 @@
-import Rating_Comp from "./components/Rating_Comp";
+
 import './App.css';
+import RatingComp from './components/RatingComp';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Rating_Comp ></Rating_Comp>
+      <RatingComp></RatingComp>
 
       </header>
     </div>

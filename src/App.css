@@ -31,7 +31,7 @@ margin-left: 10px;
 .cardcontent > h2{
 color: white !important;
 text-align: left !important;
-
+flex: content;
 
 }
 .cardcontent > p {
@@ -39,6 +39,32 @@ color: rgba(255, 255, 255, 0.559) !important;
 size: 15px;
 }
 
+
+.cardcontent2 > h2{
+color: white !important;
+text-align: center !important;
+flex: content;
+
+}
+.cardcontent2 > p {
+color: rgba(255, 255, 255, 0.559) !important;
+size: 15px;
+text-align: center;
+}
+
+
+#count{
+display: flex; 
+align-items: center;
+justify-content: space-around;
+margin: 40px;
+color: coral;
+ background-color: hsl(208, 13%, 29%) !important;
+ border-radius: 10px;
+padding: 10px;
+
+ 
+}
 
 .submitbtn{
   font-size: 25px;
@@ -48,17 +74,12 @@ size: 15px;
   background-color: hsl(25, 97%, 53%);
   color: white;
   font-family: 'Overpass', sans-serif;
-  margin-left: 30%;
+  margin-top: 10px;
 }
 
 button:hover{
-  
   background-color: white;
   color: hsl(25, 97%, 53%);
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 input[type="radio"]{
@@ -69,7 +90,6 @@ input[type="radio"]{
 cursor: pointer;
 transition: color 200ms;
 }
-
 
 
 @keyframes App-logo-spin {
