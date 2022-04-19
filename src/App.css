@@ -21,6 +21,7 @@ margin-left: 10px;
 }
 
 .card{
+  width: 400px;
   background-color: hsl(213, 19%, 18%) !important;
   padding: 20px !important;
   margin: 10% !important;
